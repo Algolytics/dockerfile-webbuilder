@@ -1,4 +1,4 @@
-FROM digitallyseamless/nodejs-bower-grunt
+FROM digitallyseamless/nodejs-bower-grunt:5
 
 RUN apt-get update  && \
     apt-get install -y python-pip && \
